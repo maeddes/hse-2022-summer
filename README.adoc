@@ -14,9 +14,15 @@
 * What is Cloud Computing? Encounters in everyday life and history
 * Characteristic, advantages & challenges
 
+=== Links:
+
+* https://csrc.nist.gov/publications/detail/sp/800-145/final
+
 === Lab tasks:
 
 * Get a public git provider
 * Get a Java-compatible IDE (VS Code, Intellij Idea, gitpod, Eclipse ...)
 * Get a docker id
 * Recommended: Local Docker/Container environment (Docker for Windows/Mac, Rancher Desktop)
+
+
