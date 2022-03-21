@@ -1,0 +1,15 @@
+= Overview
+
+[cloud-intro]
+
+== (03/21) Module: Cloud Introduction (theory-block I)
+
+=== Intro questions:
+
+* Which technologies or what do you have in mind in general if you think about "distributed systems"?
+* the "WHY" - Why would people use and implement a distributed systems architecture?
+
+=== Content:
+
+* What is Cloud Computing? Encounters in everyday life and history
+* Characteristic, advantages & challenges
