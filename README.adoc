@@ -9,7 +9,7 @@
 * Which technologies or what do you have in mind in general if you think about "distributed systems"?
 * the "WHY" - Why would people use and implement a distributed systems architecture?
 
-image::pics/brainstorm.png[Initial Brainstorm Session]
+image::pics/brains 8rm.png[Initial Brains0rm Session]
 
 === Content
 
@@ -34,5 +34,4 @@ _The student is able to describe cloud computing in own words and list examples 
 * Get a Java-compatible IDE (VS Code, Intellij Idea, gitpod, Eclipse ...)
 * Get a docker id
 * Recommended: Local Docker/Container environment (Docker for Windows/Mac, Rancher Desktop)
-
 
