@@ -1,2 +1,8 @@
 https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236
+
+HAProxy:
 https://cbonte.github.io/haproxy-dconv/2.5/configuration.html#2.1
+
+Traefik
+https://blog.opstree.com/2021/09/28/traefik-a-reverse-proxy-load-balancer/
+https://vitux.com/how-to-setup-traefik-load-balancer-in-ubuntu/
