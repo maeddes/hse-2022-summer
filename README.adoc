@@ -9,7 +9,7 @@
 * Which technologies or what do you have in mind in general if you think about "distributed systems"?
 * the "WHY" - Why would people use and implement a distributed systems architecture?
 
-image::pics/brains 8rm.png[Initial Brains0rm Session]
+image::pics/brainstorm.png[Initial Brains0rm Session]
 
 === Content
 
