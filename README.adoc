@@ -28,6 +28,13 @@ _The student is able to describe cloud computing in own words and list examples 
 * https://landscape.cncf.io/
 * https://csrc.nist.gov/publications/detail/sp/800-145/final
 
+=== Review questions
+
+* What modern, current technologies relate to the topic of distributed computing. List 3 and explain why.
+* Describe 3 abstraction layers of cloud (incl. abbreviation) and list a technology example for each.
+* What characteristics and features can I expect as a service consumer from the various layers.
+* List pros and cons for cloud (generic) - X examples each
+
 === Lab tasks:
 
 * Get a public git provider
@@ -35,7 +42,21 @@ _The student is able to describe cloud computing in own words and list examples 
 * Get a docker id
 * Recommended: Local Docker/Container environment (Docker for Windows/Mac, Rancher Desktop)
 
+image::pics/api_distibuted_systems.png[Idea of an API for dsitributed systems]
+
 == (03/28) Module: Spring Boot and REST API Intro
+
+== Module: Spring Boot Introduction
+
+* Background: Spring Framework - History & components
+* Spring <- -> Spring Boot
+* Spring Initializr (start.spring.io) & starter dependencies
+* Basic project structure (folders, configuration ..)
+* "Hello, World!" example explained
+* Using Actuator
+
+=== Objectives
+_The student is able to build and configure an own Spring Boot application from scratch with the IDE of choice. The exercise is to build an own "Hello, World!" application that exposes various REST endpoints and is able to execute CRUD operations on the state of the application. Optional: Add logging and testing, configure Actuator._
 
 === Links:
 
@@ -51,7 +72,9 @@ _The student is able to describe cloud computing in own words and list examples 
 
 * Build your own Spring Boot application starting at the Spring Initializr (start.spring.io)
 * Add the following dependencies: Spring Web, Actuator, DevTools
-* Add a @RestController annotation and expose a method via @GetMapping
+* Run the microservice and test the endpoint /actuator/health and /actuator/info
+* Annotate the Microservice with @RestController and implement a "Hello, World!" method, which responds to an HTTP GET request.
+* Add some basic "functionality" to make the service react to HTTP GET, POST calls (e.g. modify an internal list). Optional: PUT and DELETE
 * Change the server port to 8090
 * Add the Swagger UI as described in the Baeldung tutorial
 * Add an echo endpoint that returns a given parameter using the @PathVariable annotation
