@@ -35,3 +35,23 @@ _The student is able to describe cloud computing in own words and list examples 
 * Get a docker id
 * Recommended: Local Docker/Container environment (Docker for Windows/Mac, Rancher Desktop)
 
+== (03/28) Module: Spring Boot and REST API Intro
+
+=== Links:
+
+* https://spring.io/
+* https://spring.io/projects
+* https://spring.io/tools
+* https://start.spring.io/
+* https://spring.io/guides/gs/rest-service/
+* https://www.baeldung.com/spring-rest-openapi-documentation
+* https://www.baeldung.com/spring-pathvariable
+
+=== Lab tasks:
+
+* Build your own Spring Boot application starting at the Spring Initializr (start.spring.io)
+* Add the following dependencies: Spring Web, Actuator, DevTools
+* Add a @RestController annotation and expose a method via @GetMapping
+* Change the server port to 8090
+* Add the Swagger UI as described in the Baeldung tutorial
+* Add an echo endpoint that returns a given parameter using the @PathVariable annotation
