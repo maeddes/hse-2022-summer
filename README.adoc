@@ -78,3 +78,15 @@ _The student is able to build and configure an own Spring Boot application from 
 * Change the server port to 8090
 * Add the Swagger UI as described in the Baeldung tutorial
 * Add an echo endpoint that returns a given parameter using the @PathVariable annotation
+
+== (04/03) Module: Spring Boot Recap and REST
+
+=== Lab tasks:
+
+* Build your own data model. Start with a simple Java class (e.g. Shopping Item, Todolist Item, Person Info)
+* Build a REST API using a verbs and nouns to
+  * Create item entries
+  * List item entries
+  * Delete item entries
+  * Update item entries
+* Use JSON as exchange mechanism
