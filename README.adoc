@@ -9,7 +9,7 @@
 * Which technologies or what do you have in mind in general if you think about "distributed systems"?
 * the "WHY" - Why would people use and implement a distributed systems architecture?
 
-image::pics/brainstorm.png[Initial Brains0rm Session]
+image::pics/brainstorm.png[Initial Brainstorm Session]
 
 === Content
 
@@ -55,6 +55,8 @@ image::pics/api_distibuted_systems.png[Idea of an API for dsitributed systems]
 * "Hello, World!" example explained
 * Using Actuator
 
+image::pics/spring_boot_intro.png[Spring Boot High Level concepts]
+
 === Objectives
 _The student is able to build and configure an own Spring Boot application from scratch with the IDE of choice. The exercise is to build an own "Hello, World!" application that exposes various REST endpoints and is able to execute CRUD operations on the state of the application. Optional: Add logging and testing, configure Actuator._
 
@@ -81,7 +83,21 @@ _The student is able to build and configure an own Spring Boot application from 
 
 == (04/03) Module: Spring Boot Recap and REST
 
+image::pics/rest_api_simple.png[REST API concepts]
 
+* Synchronous communication
+* HTTP and REST
+* Verbs, Resources, Nouns
+* Evolution, Richardson Maturity Model
+* CRUD Operations
+* Building a REST API with Spring (Boot)
+* Building a data model with REST
+
+=== Links:
+
+* https://restfulapi.net/idempotent-rest-apis/
+* https://restfulapi.net/richardson-maturity-model/
+* https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
 === Lab tasks:
 
@@ -92,3 +108,7 @@ _The student is able to build and configure an own Spring Boot application from 
 ** Delete item entries
 ** Update item entries
 * Use JSON as exchange mechanism
+
+== (04/10) Module: REST Recap, Persistence and UI
+
+
