@@ -24,9 +24,11 @@ import org.springframework.web.bind.annotation.RestController;
  * 
  */
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages={"de.hsesslingen"})
 @RestController
 public class FirstappApplication {
+
+	List<DemoItem> items = new ArrayList<>();
 
 	@RequestMapping(value = "/", method = RequestMethod.GET, produces = "application/json")
 	public String mainEntrypoint(){
@@ -53,6 +55,7 @@ public class FirstappApplication {
 	}
 	/**
 	 * Usage of RequestParam, e.g. http://localhost:8090/item?name=User
+	 * http://localhost:8080/person?age=60
 	 */
 	@GetMapping("/item")
 	@ResponseBody
@@ -160,10 +163,6 @@ public class FirstappApplication {
 	}
 
 
-
-
-
-	List<DemoItem> items = new ArrayList<>();
 
 	public static void main(String[] args) {
 		SpringApplication.run(FirstappApplication.class, args);
