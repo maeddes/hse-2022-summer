@@ -1,4 +1,4 @@
-package de.hsesslingen.mature;
+package de.hsesslingen.firstapp.mature;
 
 public class MatureItemRepository {
     

@@ -1,4 +1,4 @@
-package de.hsesslingen.mature;
+package de.hsesslingen.firstapp.mature;
 
 import java.util.List;
 import java.util.Optional;
@@ -26,7 +26,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 @RequestMapping("/api/v2")
 public class MatureAPI {
 
-    final Logger logger = LoggerFactory.getLogger(de.hsesslingen.mature.MatureAPI.class);
+    final Logger logger = LoggerFactory.getLogger(de.hsesslingen.firstapp.mature.MatureAPI.class);
 
     @Value("${HOSTNAME:not_found}")
     String hostname;
