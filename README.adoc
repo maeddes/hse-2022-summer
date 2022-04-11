@@ -67,6 +67,7 @@ _The student is able to build and configure an own Spring Boot application from 
 * https://spring.io/tools
 * https://start.spring.io/
 * https://spring.io/guides/gs/rest-service/
+* https://springdoc.org/
 * https://www.baeldung.com/spring-rest-openapi-documentation
 * https://www.baeldung.com/spring-pathvariable
 
@@ -130,6 +131,7 @@ image::pics/rest_api_simple.png[REST API concepts]
 
 Links:
 * https://spring.io/guides/gs/accessing-data-jpa/
+* https://www.baeldung.com/spring-boot-h2-database
 
 
 
