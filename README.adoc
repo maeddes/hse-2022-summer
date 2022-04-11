@@ -99,6 +99,15 @@ image::pics/rest_api_simple.png[REST API concepts]
 * https://restfulapi.net/richardson-maturity-model/
 * https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
+=== Question:
+
+* Identification of an item (or a resource on general on the server side)? What is the identifier?
+* Which client do I use if I want to do anything else than a GET call? Clients: Postman, curl
+* Feedback to client for successful or non-successful execution?
+** HTTP Status codes
+** Return type: Return created or modified object, nothing if deleted successfully
+* How does the code determine which status code to respond with
+
 === Lab tasks:
 
 * Build your own data model. Start with a simple Java class (e.g. Shopping Item, Todolist Item, Person Info)
@@ -109,6 +118,19 @@ image::pics/rest_api_simple.png[REST API concepts]
 ** Update item entries
 * Use JSON as exchange mechanism
 
-== (04/10) Module: REST Recap, Persistence and UI
+== (04/11) Module: REST Recap, Persistence and UI
+
+=== Lab tasks:
+
+* Add Sping Data JPA to your application, use H2 as database driver/implementation in the first place
+* Extend the data object with @Entity annotation AND define an id
+* Build a repository interface based on Crud/JPARepository
+* Autowire the repository to your application / Controller class
+* Invoke "database actions"
+
+Links:
+* https://spring.io/guides/gs/accessing-data-jpa/
+
+
 
 
