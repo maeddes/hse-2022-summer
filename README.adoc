@@ -37,7 +37,7 @@ _The student is able to describe cloud computing in own words and list examples 
 
 === Lab tasks:
 
-* Get a public git provider
+* Get a (public) git provider (github, gitlab, internal gitlab of HSE ...)
 * Get a Java-compatible IDE (VS Code, Intellij Idea, gitpod, Eclipse ...)
 * Get a docker id
 * Recommended: Local Docker/Container environment (Docker for Windows/Mac, Rancher Desktop)
@@ -100,7 +100,7 @@ image::pics/rest_api_simple.png[REST API concepts]
 * https://restfulapi.net/richardson-maturity-model/
 * https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
-=== Question:
+=== Student Question:
 
 * Identification of an item (or a resource on general on the server side)? What is the identifier?
 * Which client do I use if I want to do anything else than a GET call? Clients: Postman, curl
@@ -119,7 +119,29 @@ image::pics/rest_api_simple.png[REST API concepts]
 ** Update item entries
 * Use JSON as exchange mechanism
 
+image::pics/data_api.png[CRUD Operatios without a database]
+
 == (04/11) Module: REST Recap, Persistence and UI
+
+* Repeat REST API concepts & HTTP status codes
+* Spring Data
+* Concept of entities and repositories
+* JPA, SQL and JDBC basics
+* H2 as in-memory database backend
+
+=== Objectives and exercises
+_The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL (soon :-)). 
+
+=== Links
+
+* https://spring.io/projects/spring-data
+* https://spring.io/guides/gs/accessing-data-jpa/
+* https://www.baeldung.com/spring-data-derived-queries
+* https://docs.spring.io/spring-boot/docs/1.0.x/reference/html/howto-database-initialization.html
+
+=== Student Questions:
+
+* How can you return different HTTP status codes depending on the result of your invocation?
 
 === Lab tasks:
 
@@ -133,6 +155,12 @@ Links:
 * https://spring.io/guides/gs/accessing-data-jpa/
 * https://www.baeldung.com/spring-boot-h2-database
 
+== (04/11) Lookout: Idea/Big picture of lab task
 
+* Provide interchangeable frontend and backend components for UI and business logic
+* Any frontend needs to be able to talk with any backend
+* Any backend needs to expose the same API and interact with the same database
+
+image::pics//big_picture_project.png[]
 
 
