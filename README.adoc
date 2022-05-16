@@ -44,7 +44,7 @@ _The student is able to describe cloud computing in own words and list examples 
 
 image::pics/api_distibuted_systems.png[Idea of an API for dsitributed systems]
 
-== (03/28) Module: Spring Boot and REST API Intro
+== (03/28) Module: Spring Boot and - API Intro
 
 == Module: Spring Boot Introduction
 
@@ -58,7 +58,7 @@ image::pics/api_distibuted_systems.png[Idea of an API for dsitributed systems]
 image::pics/spring_boot_intro.png[Spring Boot High Level concepts]
 
 === Objectives
-_The student is able to build and configure an own Spring Boot application from scratch with the IDE of choice. The exercise is to build an own "Hello, World!" application that exposes various REST endpoints and is able to execute CRUD operations on the state of the application. Optional: Add logging and testing, configure Actuator._
+_The student is able to build and configure an own Spring Boot application from scratch with the IDE of choice. The exercise is to build an own "Hello, World!" application that exposes various - endpoints and is able to execute CRUD operations on the state of the application. Optional: Add logging and testing, configure Actuator._
 
 === Links:
 
@@ -82,17 +82,17 @@ _The student is able to build and configure an own Spring Boot application from 
 * Add the Swagger UI as described in the Baeldung tutorial
 * Add an echo endpoint that returns a given parameter using the @PathVariable annotation
 
-== (04/03) Module: Spring Boot Recap and REST
+== (04/03) Module: Spring Boot Recap and -
 
-image::pics/rest_api_simple.png[REST API concepts]
+image::pics/rest_api_simple.png[- API concepts]
 
 * Synchronous communication
-* HTTP and REST
+* HTTP and -
 * Verbs, Resources, Nouns
 * Evolution, Richardson Maturity Model
 * CRUD Operations
-* Building a REST API with Spring (Boot)
-* Building a data model with REST
+* Building a - API with Spring (Boot)
+* Building a data model with -
 
 === Links:
 
@@ -112,7 +112,7 @@ image::pics/rest_api_simple.png[REST API concepts]
 === Lab tasks:
 
 * Build your own data model. Start with a simple Java class (e.g. Shopping Item, Todolist Item, Person Info)
-* Build a REST API using a verbs and nouns to
+* Build a - API using a verbs and nouns to
 ** Create item entries
 ** List item entries
 ** Delete item entries
@@ -121,9 +121,9 @@ image::pics/rest_api_simple.png[REST API concepts]
 
 image::pics/data_api.png[CRUD Operatios without a database]
 
-== (04/11) Module: REST Recap, Persistence and UI
+== (04/11) Module: - Recap, Persistence and UI
 
-* Repeat REST API concepts & HTTP status codes
+* Repeat - API concepts & HTTP status codes
 * Spring Data
 * Concept of entities and repositories
 * JPA, SQL and JDBC basics
@@ -184,3 +184,26 @@ _The student understands the concepts and use cases of container technology and 
 * https://www.docker.com/products/docker-desktop
 * https://www.youtube.com/watch?v=fqMOX6JJhGo
 
+== (05/02) Alternatives to - Guest lecturer Lars
+
+=== Talk abstract
+_REST is the most popular web API technology used these days. It is well supported by programming languages, frameworks and all kind of monitoring tools as well as understood by many developers. It is therefore often the first choice when having to implement a web API for any kind of backend. But there are limitations and use cases where - API’s do not fit that well. Luckily, there are a few interesting alternatives available these days. GraphQL is one such alternative so are gRPC and RSocket. In this talk I will introduce these technologies, explain their pros and cons compared to -, talk about their maturity and how they are supported by Spring and Spring Boot. I will show code examples and a live demo._
+
+=== Objectives and exercises
+_The student understands there are more communication options between two peers than only - which we have covered before. It's not necessary to know implementation details, but at least awareness of their existence._
+
+== (05/09) Lecture cancelled due to Covid
+
+== (05/16) Lab specification and container revision
+
+* https://github.com/maeddes/hse-2022-summer/blob/main/LAB.adoc
+
+* Usage of docker from local machine, play-with-docker labs and gitpod
+* Creating own container images vs. re-using from docker hub (remote container registry)
+* Difference between container image and container
+* Creating docker networks and attaching running containers
+* Running containers with various options
+* Push/pull
+
+=== Objectives and exercises
+_The student understands the concepts and use cases of container technology and is able to describe them. The student is able to either build own container images or pull images from docker hub and configure them according to the given documentation. The student is able to connect mulitple running containers over a docker network._
