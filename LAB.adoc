@@ -24,6 +24,7 @@ PUT /todos/ (send/receive JSON object., e.g. can change priority)
 Backend side:
 - Provide the REST API implementation (if possible with some form of documenation)
 - Provide a persistence mechanism (persist Todos in a database)
+- Provide a database
 - Provide a docker build mechanism (docker-compose for application and database)
 
 Language/Framework recommendations: Java/Kotlin(Spring Boot, Micronaut, Quarkus), Python, .net, Go, node.js, C 
@@ -32,7 +33,7 @@ Frontend side:
 - Implement a REST Client to talk to the REST API of the backend
 - Render functionality in a (web) UI
 
-Language/Framework recommendations: Vue, Angular, React ...
+Language/Framework recommendations: Vue, Angular, React, PHP ...
 
 Potential options for groups with 3 people:
 - Provide an example with different protocols, e.g. REST and GraphQL
