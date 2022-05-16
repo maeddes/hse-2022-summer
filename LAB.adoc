@@ -3,38 +3,42 @@
 image::pics//big_picture_project.png[lab big picture/idea]
 
 
-Todo List Application
+== Todo List Application
 
 Exchange Element: TodoItem
 
-TodoItem
+----
 String todo; (use this as in id)
 int priority;
+----
 
-API Side:
 
-/todos/
+=== API Side:
 
+Base URL: /todos/
+
+----
 GET /todos/ (returns a list of todos)
 GET /todos/{name} (returns a todo if exists)
 POST /todos/ (send/receive JSON object)
 DELETE  /todos/{name} (deletes a todo if exists)
 PUT /todos/ (send/receive JSON object., e.g. can change priority)
+----
 
-Backend side:
-- Provide the REST API implementation (if possible with some form of documenation)
-- Provide a persistence mechanism (persist Todos in a database)
-- Provide a database
-- Provide a docker build mechanism (docker-compose for application and database)
+=== Backend side:
+* Provide the REST API implementation (if possible with some form of documenation)
+* Provide a persistence mechanism (persist Todos in a database)
+* Provide a database
+* Provide a docker build mechanism (docker-compose for application and database)
 
 Language/Framework recommendations: Java/Kotlin(Spring Boot, Micronaut, Quarkus), Python, .net, Go, node.js, C 
 
-Frontend side:
-- Implement a REST Client to talk to the REST API of the backend
-- Render functionality in a (web) UI
+=== Frontend side:
+* Implement a REST Client to talk to the REST API of the backend
+* Render functionality in a (web) UI
 
 Language/Framework recommendations: Vue, Angular, React, PHP ...
 
 Potential options for groups with 3 people:
-- Provide an example with different protocols, e.g. REST and GraphQL
-- Implement authentication and multi-tenency (todos per user)
+* Provide an example with different protocols, e.g. REST and GraphQL
+* Implement authentication and multi-tenency (todos per user)
