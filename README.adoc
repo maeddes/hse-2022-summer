@@ -173,6 +173,8 @@ image::pics//big_picture_project.png[lab big picture/idea]
 * Docker concepts: daemon, hub, dockerfile, CLI
 * Running containers with various options
 
+image::pics//docker.png[]
+
 === Objectives and exercises
 _The student understands the concepts and use cases of container technology and is able to describe them. The first exercise is to pull sample images from an image registry (e.g. Docker Hub) and interact with them (run, expose port, execute shell, cleanup etc). After that the student can show how to build a custom image via Dockerfile and push it to a registry for others to access. Complete the exercises handed out via URL._
 
