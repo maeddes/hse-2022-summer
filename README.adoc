@@ -220,6 +220,8 @@ _The student understands the concepts and use cases of container technology and 
 * Building container for Java apps
 * Using Jib, Cloud-Native Buildpacks and Paketo
 
+image::pics//container_build_options.png[]
+
 === Objectives and exercises
 _The student understands the relation between container image and container, how to instantiate a container from an image and how to commit to a new image from an existing container. The exercise is to build the previous Spring Boot application and put it into a container image using various options, e.g. different Dockerfile options, Google JIB, CND, Paketo and more ...? The student is aware and able to describe on a high-level what the different fundamentals of the various approaches are and is able to list advantages and disadvantages._
 
