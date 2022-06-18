@@ -42,9 +42,9 @@ _The student is able to describe cloud computing in own words and list examples 
 * Get a docker id
 * Recommended: Local Docker/Container environment (Docker for Windows/Mac, Rancher Desktop)
 
-image::pics/api_distibuted_systems.png[Idea of an API for dsitributed systems]
+image::pics/api_distibuted_systems.png[Idea of an API for distributed systems]
 
-== (03/28) Module: Spring Boot and - API Intro
+== (03/28) Module: Spring Boot and REST API Intro
 
 == Module: Spring Boot Introduction
 
@@ -82,17 +82,17 @@ _The student is able to build and configure an own Spring Boot application from 
 * Add the Swagger UI as described in the Baeldung tutorial
 * Add an echo endpoint that returns a given parameter using the @PathVariable annotation
 
-== (04/03) Module: Spring Boot Recap and -
+== (04/03) Module: Spring Boot Recap and REST
 
-image::pics/rest_api_simple.png[- API concepts]
+image::pics/rest_api_simple.png[REST API concepts]
 
 * Synchronous communication
-* HTTP and -
+* HTTP and REST
 * Verbs, Resources, Nouns
 * Evolution, Richardson Maturity Model
 * CRUD Operations
-* Building a - API with Spring (Boot)
-* Building a data model with -
+* Building a REST API with Spring (Boot)
+* Building a data model with REST
 
 === Links:
 
@@ -121,9 +121,9 @@ image::pics/rest_api_simple.png[- API concepts]
 
 image::pics/data_api.png[CRUD Operatios without a database]
 
-== (04/11) Module: - Recap, Persistence and UI
+== (04/11) Module: REST Recap, Persistence and UI
 
-* Repeat - API concepts & HTTP status codes
+* Repeat REST API concepts & HTTP status codes
 * Spring Data
 * Concept of entities and repositories
 * JPA, SQL and JDBC basics
@@ -186,13 +186,13 @@ _The student understands the concepts and use cases of container technology and 
 * https://www.docker.com/products/docker-desktop
 * https://www.youtube.com/watch?v=fqMOX6JJhGo
 
-== (05/02) Alternatives to - Guest lecturer Lars
+== (05/02) Alternatives to REST - Guest lecturer Lars
 
 === Talk abstract
 _REST is the most popular web API technology used these days. It is well supported by programming languages, frameworks and all kind of monitoring tools as well as understood by many developers. It is therefore often the first choice when having to implement a web API for any kind of backend. But there are limitations and use cases where - API’s do not fit that well. Luckily, there are a few interesting alternatives available these days. GraphQL is one such alternative so are gRPC and RSocket. In this talk I will introduce these technologies, explain their pros and cons compared to -, talk about their maturity and how they are supported by Spring and Spring Boot. I will show code examples and a live demo._
 
 === Objectives and exercises
-_The student understands there are more communication options between two peers than only - which we have covered before. It's not necessary to know implementation details, but at least awareness of their existence._
+_The student understands there are more communication options between two peers than only REST which we have covered before. It's not necessary to know implementation details, but at least awareness of their existence._
 
 == (05/09) Lecture cancelled due to Covid
 
@@ -209,3 +209,58 @@ _The student understands there are more communication options between two peers 
 
 === Objectives and exercises
 _The student understands the concepts and use cases of container technology and is able to describe them. The student is able to either build own container images or pull images from docker hub and configure them according to the given documentation. The student is able to connect mulitple running containers over a docker network._
+
+== (05/23) Container Images & Build Options
+
+* Difference and relation between container and container images
+* Concepts of image layers
+* "docker commit"
+* History of Dockerfile. Initial, multi-stage & BuildKit
+* Building container for Java apps
+* Using Jib, Cloud-Native Buildpacks and Paketo
+
+=== Objectives and exercises
+_The student understands the relation between container image and container, how to instantiate a container from an image and how to commit to a new image from an existing container. The exercise is to build the previous Spring Boot application and put it into a container image using various options, e.g. different Dockerfile options, Google JIB, CND, Paketo and more ...? The student is aware and able to describe on a high-level what the different fundamentals of the various approaches are and is able to list advantages and disadvantages._
+
+=== Links
+
+* https://docs.docker.com/engine/reference/builder/
+* https://buildpacks.io/
+* https://paketo.io/
+* https://github.com/maeddes/options-galore-container-build/blob/main/walkthrough.adoc
+* https://github.com/GoogleContainerTools/jib
+
+=== Review questions
+
+* List 3 different options to build a container image
+* Explain docker build vs docker commit 
+* List 2 evolution steps of the Dockerfile and provide 1 improvement for each step 
+* Explain or list 1 advantage&disadvantage comparing JIB and Paketo/CNB to original Dockerfiles
+* How is a container image build up internally?
+* Which are criterias you can think that make image building "better"
+
+== (05/30) Cloud-native software development & Microservices (theory-block II)
+
+* CAP Theorem
+* Conway's Law
+* Fallacies of distributed computing
+* Domain-Driven Design basics
+* 12-factor application
+* Evolution of applications and deployments: Monolithic -> Service-Oriented Architecture -> Microservices
+* Introduction to serverless and FaaS terminology
+
+=== Objectives and exercises
+_The student knows about the evolution of distributed systems and the drivers towards state-of-the-art implementation and deployment. She/he can explain the underlying concepts and theories and put it into practical context. No dedicated exercises for this module. Recap of basics: Spring Boot, Docker, configuration and persistence._
+
+=== Links
+
+* https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
+* https://12factor.net/
+
+=== Review questions
+
+* Describe the concept of CAP/Conway/.. in your own words
+* Identify aspects of 12-factor in the technologies we have covered so far (mostly Spring Boot & Docker)
+* Explain why the 12-factor idea is helpful for cloud-based applications
+* Describe the criteria of a microservice
+* List advantages/disadvantages microservices <-> monoliths
