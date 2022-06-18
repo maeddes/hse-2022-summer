@@ -130,7 +130,7 @@ image::pics/data_api.png[CRUD Operatios without a database]
 * H2 as in-memory database backend
 
 === Objectives and exercises
-_The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL (soon :-)). 
+_The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL (soon :-))._
 
 === Links
 
