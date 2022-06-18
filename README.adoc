@@ -151,7 +151,8 @@ _The student is able to build a Spring Boot application (or extend an existing o
 * Autowire the repository to your application / Controller class
 * Invoke "database actions"
 
-Links:
+=== Links:
+
 * https://spring.io/guides/gs/accessing-data-jpa/
 * https://www.baeldung.com/spring-boot-h2-database
 
