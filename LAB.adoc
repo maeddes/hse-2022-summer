@@ -30,12 +30,14 @@ PUT /todos/ (send/receive JSON object., e.g. can change priority)
 * Provide a persistence mechanism (persist Todos in a database)
 * Provide a database
 * Provide a docker build mechanism (docker-compose for application and database)
+* Indicate where the exposed port is configured
 
 Language/Framework recommendations: Java/Kotlin(Spring Boot, Micronaut, Quarkus), Python, .net, Go, node.js, C 
 
 === Frontend side:
 * Implement a REST Client to talk to the REST API of the backend
 * Render functionality in a (web) UI
+* Indicate how to configure the backend URL
 
 Language/Framework recommendations: Vue, Angular, React, PHP ...
 
